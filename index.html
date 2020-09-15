@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import in your HTML <head> -->
+    <!--link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"rel="stylesheet"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+
+
+    <title>Better call Saul</title>
+
+    <style>
+        /*html{
+          background-color:#fff42b;
+          background-image:linear-gradient(to bottom right, #fff42b, #ff2655);
+          color: white;
+          font-family:"Quicksand", sans-serif;
+          font-size:16px;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          line-height:1.5;
+          min-height:100vh; 
+          min-width:300px;
+          overflow-x:hidden;
+          text-shadow:0 3px 5px rgba(0,0,0,0.1);
+        }*/
+        .wallpaper {
+          display: block;
+          background-position: center;
+          background-size: cover;
+          opacity: 0.2;
+          position: fixed;
+          height: 100%;
+          width: 100%;
+        }
+        .content{
+          display: flex;
+          position: relative;
+          min-height: 100vh;
+        }
+        
+        .side {
+          max-height: 20rem;
+          max-width: 20rem;
+        }
+        
+        .about {
+          max-width: 26rem
+        }
+
+        /*
+        @media screen and (max-width:799px){
+          .content{
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            padding:5rem3rem;
+          }
+          .side{
+            margin-bottom:3rem;
+            width:100%;
+          }
+        }
+        @media screen and (min-width:800px){
+          .content{
+            align-items:center;
+            justify-content:space-around;
+            justify-content:space-evenly;
+            padding:4rem;
+          }
+          .side{
+            flex-grow:0;
+            flex-shrink:0;
+            height:20rem;
+            margin-left:4rem;
+            order:2;
+            width:20rem;
+          }
+          .about{
+            flex-grow:1;
+            flex-shrink:1;
+          }
+        }*/
+
+        /*
+        .picture-image{
+          border-radius: 290476px;
+        }*/
+
+        /*
+
+        .underline--magical {
+          background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+          background-repeat: no-repeat;
+          background-size: 100% 0.2em;
+          background-position: 0 88%;
+          transition: background-size 0.25s ease-in;
+          &:hover {
+            background-size: 100% 88%;
+          }
+        }*/
+        .name{ 
+          font-size: 2.25rem;
+          line-height: 1.125;
+          margin-bottom: 0.5rem;
+        }
+        .job{
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 0.75rem;
+        }
+        .description{
+          font-size: 1.0rem;
+        }
+
+
+    </style>
+</head>
+<body>
+  <div class="wallpaper"></div>
+  <div class="content">
+    <aside class="side">
+      <figure class="picture">
+        <div class="picture-shadow"</div>
+        <img 
+          id="pictureImg"
+          src="images/saul.jpg"
+          alt="saul"
+          width="320"
+          height="320"
+          class="picture-image"
+        >
+      </figure>
+    </aside>
+    <main class="about">
+      <h1 class="name underline--magical">
+        Saul Goldman
+      </h1>
+      <p class="job">Abogado
+      </p>
+      <p class="description">Si bebes no conduzcas, pero si lo haces, <a href="contact.html">contactame</a></p>
+    </main>
+  </div>
+</body>
+</html>

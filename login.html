@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saul Goldman - Contacto</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"-->
     <style>
         
           html{
@@ -44,16 +44,17 @@
             <div class="columns is-centered">
                 <div class="column is-two-fifths-desktop">
                     <div class="box">
-                        <h1 class="title">Contacto</h1>
-                        <form method="GET">
-                            <label class="label">Nombre:</label>
-                            <input class="input" type="password" placeholder="ingreso su nombre" name="nombre" value="">
+                        <h1 class="title">Login</h1>
+                        <form method="POST">
+                            <label class="label">Email:</label>
+                            <input class="input" type="email" name="user" value="">
                             <br>
                             <br>
-                            <label class="label">Consulta:</label>
-                            <textarea class="textarea" rows="10" cols="50" placeholder="Ingresa tu consulta" name="consulta" value=""></textarea>
+                            <label class="label">Password:</label>
+                            <input class="input" type="password" name="passwd" value="">
+                        
                             <div class="field is-grouped mt-5">
-                                <button class="button is-link">Submit</button>
+                                <button class="button is-link">Ingresar</button>
                             </div>
                         </form>
                     </div>
